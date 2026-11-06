@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+    <meta charset="UTF-8">
+    <mata name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <title>Feature| USD Bloom</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+
+</body>
+
+</header>
+<h2>USD Bloom</h2>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="About.html">About</a>
+    <a href="feature.html">Feature</a>
+
+</nav>
+</header>
+<section class="hero">
+    <h1>Explore Our Features</h1>
+    <nav>
+        
+        
+<p> 
+        USD Bloom provides simple financial tools
+        to help you understand, plan and manage your money.
+    </p>
+</section>
+<section class="features">
+    <div class="hero">
+        <h2>currency converter</h2>
+        <p>convert money between differnt currencies easly.</p>
+    </div>
+
+    <div class="hero">
+        <h2>Budget planning</h2>
+        <p>Create a budget and plan how to spend your money management.</p>
+    </div>
+    <div class="hero">
+        <h2>financial Education</h2>
+        <p>learn basic financial skills and money management.</p>
+    </div>
+    <div class="hero">
+        <h2>Expense Tracking</h2>
+        <p>Records your spending and understand where your money goals.</p>
+        <div class="hero">
+            <h2>Finance Tips</h2>
+            <p>Discover useful tips to help you make better money decision.</p>
+    </div>
+</section>
+<footer>
+    <section class="financial-tools">
+        <h2>Our Financial Tools </h2>
+        <div class="tool container">
+        <div class="tool-card">
+            <h3>Budget Planner</h3>
+            <p>Plan your monthly income and expenses.</p>
+        </div>
+        <div class="tool-card">
+        <div class="calculator">
+            <h3>Savings calculator</h3>
+            <label>Amount to save each month (ZMW):</label>
+            <input type="text" id="monthly" placeholder"Enter months">
+            <button type="button" id="runButton" onclick="calculateSavings()" >calculate Savings</button>
+            <h3 id="result">your total savings will appear here.</h3>
+            <p>calculator how much money you can save.</p> 
+        </div>
+        <div class="tool-card">
+            <h3>currency Conveter</h3>
+            <p>learn about converting differnt currencies.</p>
+        </div>
+        <div class="tool-card">
+            <h3>Financial Tips</h3>
+            <p>Learn simple ways to manage your money.</p>
+        </div>
+        </div>
+    </section>
+    <p>&copy; 2026 USD Bloom Finance.All rights reserved.</p>
+</footer>
+
+<script scr="script.js"></script>
+
+<script>
+    
+    const runButton = document.getElementById("runButton");
+
+    function calculateSavings(){
+        // let savings = eval(savingsInput);
+        const savingsInput = document.getElementById("monthly").value;
+
+        console.log(eval(savingsInput));
+        alert(eval(savingsInput));
+    }
+
+</script>
+</body>
+</html>

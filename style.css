@@ -1,0 +1,116 @@
+body {
+    background-image: url("USD\ Bloom_\ Better\ Money\,\ Brighter\ Future.png\ \(1672.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+h1{
+    background: linear-gradient(120eg,rgb(247, 242, 242),#060607);
+    color :#f5ebf5;
+    text-align: center;
+    padding: 100px 20px;
+    font-size: 50px;
+
+    border-radius: 20px;
+}
+p{
+    background: linear-gradient(120deg,#7a1fd4,#d9d9e4);
+    color: rgb(12, 12, 14);
+    text-align: center;
+    padding: 100px 20px;
+    font-size: 50px;
+    border-radius: 20px;
+    background-color: rgb(39, 21, 204);
+
+}
+p{
+    text-align: center;
+    font-size: 18px;
+    padding:20px;
+}
+
+h1, h2, h3, p {
+    color:white;
+}
+.hero{
+    background-color: rgb(11, 10, 12);
+    color:rgb(232, 240, 240);
+    padding: 50px;
+text-align:center;
+border-radius: 20px;
+margin: 20px;
+
+}
+/*Navigation link*/
+.nav-links{
+justify-content: center;
+align-items: center;
+gap: 15px;
+}
+/*Make Home,About,Fetures and Use Caseslook like buttons */
+.nav-links a {
+    display: inline-block ;
+    text-decoration: none;
+    color:white;
+    background-color: #7a1fd4;
+    padding: 10px 18px;
+    border-radius: 25px;
+    font-size: 15px;
+    transition: 0.3s;
+
+}
+/*Effect when the mouse moves over a button* / 
+.nav-links  a : hover {
+background-color:#8b5cf6;
+transform: translateY(-2px)
+}
+/*Explore button*/
+.explore-btn{
+    display:inline-block;
+    text-decoration: none;
+    background-color: #5124b7;
+    color:white;
+    padding: 12px 24px;
+    border-radius: 25px;
+    translation: 0.3;
+
+}
+.explore-btn:hover{
+    background-color: #351078;
+    
+}
+.intro-text{
+    color:white;
+
+}
+/* Navigation buttons */
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+
+}
+nav a{
+    background-color: #6a1b9a;
+    color : white;
+    text-decoration: none;
+    padding: 14px  25px;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight:bold ;
+    border: 2px solid #310935;
+
+}
+/* when the mouse touches a button */
+nav a : hover {
+    background-color:#b76ee8;
+    color: white;
+}
+nav a {
+background-color: rgb(60, 0, 128);
+color: white; 
+border: 2px solid #b76ee8;
+}
