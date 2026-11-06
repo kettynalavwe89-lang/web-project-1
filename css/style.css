@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(36, 12, 94);
+    color: #b0c286;
+
+}
+h1{
+    background: linear-gradient(120eg,rgb(202, 190, 235),#1f1f6b);
+    color :#efe3fd;
+    text-align: center;
+    padding: 100px 20px;
+    font-size: 50px;
+
+    border-radius: 20px;
+}
+p{
+    background: linear-gradient(120deg,#1e0b4b,#914cff);
+    color: rgb(221, 222, 226);
+    text-align: center;
+    padding: 100px 20px;
+    font-size: 50px;
+    border-radius: 20px;
+
+}
+p{
+    text-align: center;
+    font-size: 18px;
+    padding:20px;
+}
+.hero{
+    background-color: rgb(67, 22, 126);
+    color:rgb(20, 109, 131);
+    padding: 50px;
+text-align:center;
+border-radius: 20px;
+margin: 20px;
+
+}
+/*Navigation link*/
+.nav-links{
+justify-content: center;
+align-items: center;
+gap: 15px;
+}
+/*Make Home,About,Fetures and Use Caseslook like buttons */
+.nav-links a {
+    display: inline-block ;
+    text-decoration: none;
+    color:white;
+    background-color: white;
+    padding: 10px 18px;
+    border-radius: 25px;
+    font-size: 15px;
+    transition: 0.3s;
+
+}
+/*Effect when the mouse moves over a button* / 
+.nav-links  a : hover {
+background-color:#8b5cf6;
+transform: translateY(-2px)
+}
+/*Explore button*/
+.explore-btn{
+    display:inline-block;
+    text-decoration: none;
+    background-color: #5124b7;
+    color:white;
+    padding: 12px 24px;
+    border-radius: 25px;
+    translation: 0.3;
+
+}
+.explore-btn:hover{
+    background-color: #351078;
+    
+}
